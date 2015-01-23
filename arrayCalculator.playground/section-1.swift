@@ -43,3 +43,7 @@ class TipCalculator{
 //6
 let tipCalc = TipCalculator(total: 3.25, taxPct: 0.06)
 tipCalc.returnPossibleTips()
+
+
+
+
