@@ -1,4 +1,4 @@
-
+//เครื่องคิดเลข
 class calotator {
     var intput1: Int
     var intput2: Int
