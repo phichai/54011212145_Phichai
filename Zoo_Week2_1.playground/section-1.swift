@@ -14,7 +14,7 @@ class zoo  {
     func af() -> String{
         var tall = ""
         for (var i = 0; i < animal.count; i++){
-            if (sum == animal[i]){
+            if (sum == animal){
                 tall = food[i]
             }
         }
@@ -23,4 +23,4 @@ class zoo  {
 }
 
 let fAnimal = zoo(animal: "ไก่")
-fAnimal.a()
+fAnimal.af()
