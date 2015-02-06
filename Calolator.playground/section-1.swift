@@ -3,6 +3,7 @@ class calotator {
     var intput1: Int
     var intput2: Int
     var offtion: String
+    
  
     //สร้างตัวแปล
     init (x1:Int,x2:Int,x3:String){

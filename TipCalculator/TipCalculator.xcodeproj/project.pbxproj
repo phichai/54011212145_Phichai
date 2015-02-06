@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD8DE31F1A84972200BBAD60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DE31E1A84972200BBAD60 /* AppDelegate.swift */; };
+		FD8DE3211A84972200BBAD60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DE3201A84972200BBAD60 /* ViewController.swift */; };
+		FD8DE3241A84972200BBAD60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8DE3221A84972200BBAD60 /* Main.storyboard */; };
+		FD8DE3261A84972200BBAD60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8DE3251A84972200BBAD60 /* Images.xcassets */; };
+		FD8DE3291A84972200BBAD60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD8DE3271A84972200BBAD60 /* LaunchScreen.xib */; };
+		FD8DE3351A84972200BBAD60 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DE3341A84972200BBAD60 /* TipCalculatorTests.swift */; };
+		FD8DE3411A84A91900BBAD60 /* Tip calcuiatormodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DE3401A84A91900BBAD60 /* Tip calcuiatormodel.swift */; };
+		FD8DE3431A84B7E600BBAD60 /* SSC-Napoli-v-Arsenal-UEFA-Champions-League.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD8DE3421A84B7E600BBAD60 /* SSC-Napoli-v-Arsenal-UEFA-Champions-League.jpg */; };
+		FD8DE3451A84BAB500BBAD60 /* TipOneTwoThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DE3441A84BAB500BBAD60 /* TipOneTwoThree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD8DE32F1A84972200BBAD60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8DE3111A84972100BBAD60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD8DE3181A84972100BBAD60;
+			remoteInfo = TipCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD8DE3191A84972200BBAD60 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8DE31D1A84972200BBAD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8DE31E1A84972200BBAD60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD8DE3201A84972200BBAD60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD8DE3231A84972200BBAD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD8DE3251A84972200BBAD60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD8DE3281A84972200BBAD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD8DE32E1A84972200BBAD60 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8DE3331A84972200BBAD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8DE3341A84972200BBAD60 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		FD8DE3401A84A91900BBAD60 /* Tip calcuiatormodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tip calcuiatormodel.swift"; sourceTree = "<group>"; };
+		FD8DE3421A84B7E600BBAD60 /* SSC-Napoli-v-Arsenal-UEFA-Champions-League.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "SSC-Napoli-v-Arsenal-UEFA-Champions-League.jpg"; path = "../../../SSC-Napoli-v-Arsenal-UEFA-Champions-League.jpg"; sourceTree = "<group>"; };
+		FD8DE3441A84BAB500BBAD60 /* TipOneTwoThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipOneTwoThree.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD8DE3161A84972100BBAD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8DE32B1A84972200BBAD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD8DE3101A84972100BBAD60 = {
+			isa = PBXGroup;
+			children = (
+				FD8DE31B1A84972200BBAD60 /* TipCalculator */,
+				FD8DE3311A84972200BBAD60 /* TipCalculatorTests */,
+				FD8DE31A1A84972200BBAD60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD8DE31A1A84972200BBAD60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD8DE3191A84972200BBAD60 /* TipCalculator.app */,
+				FD8DE32E1A84972200BBAD60 /* TipCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD8DE31B1A84972200BBAD60 /* TipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				FD8DE31E1A84972200BBAD60 /* AppDelegate.swift */,
+				FD8DE3201A84972200BBAD60 /* ViewController.swift */,
+				FD8DE3221A84972200BBAD60 /* Main.storyboard */,
+				FD8DE3401A84A91900BBAD60 /* Tip calcuiatormodel.swift */,
+				FD8DE3251A84972200BBAD60 /* Images.xcassets */,
+				FD8DE3271A84972200BBAD60 /* LaunchScreen.xib */,
+				FD8DE31C1A84972200BBAD60 /* Supporting Files */,
+				FD8DE3441A84BAB500BBAD60 /* TipOneTwoThree.swift */,
+			);
+			path = TipCalculator;
+			sourceTree = "<group>";
+		};
+		FD8DE31C1A84972200BBAD60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD8DE3421A84B7E600BBAD60 /* SSC-Napoli-v-Arsenal-UEFA-Champions-League.jpg */,
+				FD8DE31D1A84972200BBAD60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD8DE3311A84972200BBAD60 /* TipCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD8DE3341A84972200BBAD60 /* TipCalculatorTests.swift */,
+				FD8DE3321A84972200BBAD60 /* Supporting Files */,
+			);
+			path = TipCalculatorTests;
+			sourceTree = "<group>";
+		};
+		FD8DE3321A84972200BBAD60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD8DE3331A84972200BBAD60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD8DE3181A84972100BBAD60 /* TipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8DE3381A84972200BBAD60 /* Build configuration list for PBXNativeTarget "TipCalculator" */;
+			buildPhases = (
+				FD8DE3151A84972100BBAD60 /* Sources */,
+				FD8DE3161A84972100BBAD60 /* Frameworks */,
+				FD8DE3171A84972100BBAD60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipCalculator;
+			productName = TipCalculator;
+			productReference = FD8DE3191A84972200BBAD60 /* TipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD8DE32D1A84972200BBAD60 /* TipCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8DE33B1A84972200BBAD60 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */;
+			buildPhases = (
+				FD8DE32A1A84972200BBAD60 /* Sources */,
+				FD8DE32B1A84972200BBAD60 /* Frameworks */,
+				FD8DE32C1A84972200BBAD60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD8DE3301A84972200BBAD60 /* PBXTargetDependency */,
+			);
+			name = TipCalculatorTests;
+			productName = TipCalculatorTests;
+			productReference = FD8DE32E1A84972200BBAD60 /* TipCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD8DE3111A84972100BBAD60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FD8DE3181A84972100BBAD60 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD8DE32D1A84972200BBAD60 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD8DE3181A84972100BBAD60;
+					};
+				};
+			};
+			buildConfigurationList = FD8DE3141A84972100BBAD60 /* Build configuration list for PBXProject "TipCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD8DE3101A84972100BBAD60;
+			productRefGroup = FD8DE31A1A84972200BBAD60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD8DE3181A84972100BBAD60 /* TipCalculator */,
+				FD8DE32D1A84972200BBAD60 /* TipCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD8DE3171A84972100BBAD60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8DE3241A84972200BBAD60 /* Main.storyboard in Resources */,
+				FD8DE3431A84B7E600BBAD60 /* SSC-Napoli-v-Arsenal-UEFA-Champions-League.jpg in Resources */,
+				FD8DE3291A84972200BBAD60 /* LaunchScreen.xib in Resources */,
+				FD8DE3261A84972200BBAD60 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8DE32C1A84972200BBAD60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD8DE3151A84972100BBAD60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8DE3451A84BAB500BBAD60 /* TipOneTwoThree.swift in Sources */,
+				FD8DE3211A84972200BBAD60 /* ViewController.swift in Sources */,
+				FD8DE31F1A84972200BBAD60 /* AppDelegate.swift in Sources */,
+				FD8DE3411A84A91900BBAD60 /* Tip calcuiatormodel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8DE32A1A84972200BBAD60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8DE3351A84972200BBAD60 /* TipCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD8DE3301A84972200BBAD60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD8DE3181A84972100BBAD60 /* TipCalculator */;
+			targetProxy = FD8DE32F1A84972200BBAD60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD8DE3221A84972200BBAD60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8DE3231A84972200BBAD60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD8DE3271A84972200BBAD60 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8DE3281A84972200BBAD60 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD8DE3361A84972200BBAD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD8DE3371A84972200BBAD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD8DE3391A84972200BBAD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD8DE33A1A84972200BBAD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD8DE33C1A84972200BBAD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
+			};
+			name = Debug;
+		};
+		FD8DE33D1A84972200BBAD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD8DE3141A84972100BBAD60 /* Build configuration list for PBXProject "TipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8DE3361A84972200BBAD60 /* Debug */,
+				FD8DE3371A84972200BBAD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8DE3381A84972200BBAD60 /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8DE3391A84972200BBAD60 /* Debug */,
+				FD8DE33A1A84972200BBAD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD8DE33B1A84972200BBAD60 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8DE33C1A84972200BBAD60 /* Debug */,
+				FD8DE33D1A84972200BBAD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD8DE3111A84972100BBAD60 /* Project object */;
+}

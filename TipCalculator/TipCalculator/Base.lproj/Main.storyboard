@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="itl-CA-56X">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Tip Calulator-->
+        <scene sceneID="qUz-nl-gCN">
+            <objects>
+                <viewController title="Tip Calulator" id="itl-CA-56X" customClass="ViewController" customModule="TipCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YCg-I1-uHu"/>
+                        <viewControllerLayoutGuide type="bottom" id="8hy-I0-vJj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6tO-Uo-QIj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMG-wj-tPB">
+                                <rect key="frame" x="0.0" y="14" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.70199001636864677" green="1" blue="0.46826081417432208" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Tip Calculator" id="FXJ-8q-i72"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bill Total (Post-Tax)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3l-JQ-ozI">
+                                <rect key="frame" x="16" y="113" width="146" height="21"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tax Percentage (0%)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cnx-jq-QdJ">
+                                <rect key="frame" x="10" y="151" width="159" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QvZ-2P-10k">
+                                <rect key="frame" x="189" y="109" width="121" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="W4j-hW-zT1">
+                                <rect key="frame" x="187" y="147" width="125" height="31"/>
+                                <connections>
+                                    <action selector="taxPercentageChangd:" destination="itl-CA-56X" eventType="touchUpInside" id="tUf-0J-Wi6"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5T-Mg-BIk">
+                                <rect key="frame" x="128" y="195" width="65" height="30"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" red="0.33947998101069632" green="0.79099632210606896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.33947998099999999" green="0.79099632210000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateTapped:" destination="itl-CA-56X" eventType="touchUpInside" id="RMO-5m-WSl"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nPz-Kz-dQj">
+                                <rect key="frame" x="32" y="233" width="272" height="73"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SSC-Napoli-v-Arsenal-UEFA-Champions-League.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KlR-f3-bbD">
+                                <rect key="frame" x="-8" y="333" width="337" height="235"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97146696050000003" green="1" blue="0.94631133889999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.33947998099999999" green="0.79099632210000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <keyCommands/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="resultsTextView" destination="nPz-Kz-dQj" id="CPA-QX-Yhd"/>
+                        <outlet property="taxPctLabel" destination="Cnx-jq-QdJ" id="UTH-0O-2En"/>
+                        <outlet property="taxtPctSlider" destination="W4j-hW-zT1" id="pyf-3O-MbW"/>
+                        <outlet property="totalTextField" destination="QvZ-2P-10k" id="M0f-w4-gtE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dJI-mo-IJB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="A0W-lB-5tm">
+                    <connections>
+                        <action selector="viewTapped:" destination="itl-CA-56X" id="pve-gY-0Zk"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-323" y="-1"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SSC-Napoli-v-Arsenal-UEFA-Champions-League.jpg" width="2197" height="1463"/>
+    </resources>
+    <color key="tintColor" red="0.97146696054196302" green="1" blue="0.94631133894181541" alpha="1" colorSpace="calibratedRGB"/>
+</document>
