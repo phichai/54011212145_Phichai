@@ -9,8 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
-    let tipCal = tipCaculatorModel(total: 33.25, taxPct: 0.06)
-    var possibleTips = Dictionary<Int, (tipAmt: Double, total:Double)>()
+        let tipCal = tipCaculatorModel(total: 33.25, taxPct: 0.06)
+        var possibleTips = Dictionary<Int, (tipAmt: Double, total:Double)>()
     var sortedKeys:[Int] = []
     
     override func viewDidLoad() {
@@ -23,29 +23,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         self.tabelView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cellIdentifier")
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBOutlet weak var tabelView: UITableView!//action ของ tabel view
-    
+
+    @IBOutlet weak var tabelView: UITableView!
+
     @IBOutlet weak var TotalTextField: UITextField!
     @IBOutlet weak var taxPctSlider: UISlider!
     @IBOutlet weak var taxPctLabel: UILabel!
     @IBOutlet weak var resultsTextView: UITextView!
-    
-    
-    
-    
-    
     @IBAction func calculatedTapped(sender: AnyObject) {
         //1
         tipCal.total = Double((TotalTextField.text as NSString).doubleValue)
         //2
         possibleTips = tipCal.returnPossibleTips()
-        sortedKeys = sorted(Array(possibleTips.keys))//sort เรียงลำดับจากน้อยไปมาก
+        sortedKeys = sorted(Array(possibleTips.keys))
         //3
         tabelView.reloadData()
     }
@@ -58,7 +53,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBAction func viewTapped(sender: AnyObject) {
         TotalTextField.resignFirstResponder()
     }
-    
+   
     
     func refreshUI() {
         TotalTextField.text = String(format: "%0.2f", tipCal.total)
@@ -87,3 +82,4 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
 }
+

@@ -12,11 +12,11 @@ class tipCaculatorModel {
     var total: Double
     var taxPct: Double
     var subtotal: Double{
-        
-        get {
-            return total / (taxPct+1)
-        }
+    
+    get {
+        return total / (taxPct+1)
     }
+}
     init(total:Double, taxPct:Double){
         self.total = total
         self.taxPct = taxPct
@@ -35,7 +35,7 @@ class tipCaculatorModel {
         let possibleTipsInferred = [0.15, 0.18, 0.20]
         let possibleTipsExplicit:[Double] = [0.15, 0.18, 0.20]
         
-        // var numberOfItems = possibleTipsInferred.count
+       // var numberOfItems = possibleTipsInferred.count
         
         //2
         var retval = Dictionary<Int, (tipAmt: Double, total:Double)>()
@@ -50,3 +50,4 @@ class tipCaculatorModel {
         return retval
     }
 }
+    

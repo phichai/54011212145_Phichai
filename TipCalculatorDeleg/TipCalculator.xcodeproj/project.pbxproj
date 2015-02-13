@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD8DE31F1A84972200BBAD60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DE31E1A84972200BBAD60 /* AppDelegate.swift */; };
-		FD8DE3211A84972200BBAD60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DE3201A84972200BBAD60 /* ViewController.swift */; };
-		FD8DE3241A84972200BBAD60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8DE3221A84972200BBAD60 /* Main.storyboard */; };
-		FD8DE3261A84972200BBAD60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8DE3251A84972200BBAD60 /* Images.xcassets */; };
-		FD8DE3291A84972200BBAD60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD8DE3271A84972200BBAD60 /* LaunchScreen.xib */; };
-		FD8DE3351A84972200BBAD60 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DE3341A84972200BBAD60 /* TipCalculatorTests.swift */; };
-		FD8DE3411A84A91900BBAD60 /* Tip calcuiatormodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DE3401A84A91900BBAD60 /* Tip calcuiatormodel.swift */; };
+		FD7923F01A84A7F200F56386 /* tipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7923EF1A84A7F200F56386 /* tipCalculatorModel.swift */; };
+		FD918BF11A8495D400C19151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD918BF01A8495D400C19151 /* AppDelegate.swift */; };
+		FD918BF31A8495D400C19151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD918BF21A8495D400C19151 /* ViewController.swift */; };
+		FD918BF61A8495D400C19151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD918BF41A8495D400C19151 /* Main.storyboard */; };
+		FD918BF81A8495D400C19151 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD918BF71A8495D400C19151 /* Images.xcassets */; };
+		FD918BFB1A8495D400C19151 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD918BF91A8495D400C19151 /* LaunchScreen.xib */; };
+		FD918C071A8495D400C19151 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD918C061A8495D400C19151 /* TipCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FD8DE32F1A84972200BBAD60 /* PBXContainerItemProxy */ = {
+		FD918C011A8495D400C19151 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FD8DE3111A84972100BBAD60 /* Project object */;
+			containerPortal = FD918BE31A8495D400C19151 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD8DE3181A84972100BBAD60;
+			remoteGlobalIDString = FD918BEA1A8495D400C19151;
 			remoteInfo = TipCalculator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD8DE3191A84972200BBAD60 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD8DE31D1A84972200BBAD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD8DE31E1A84972200BBAD60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD8DE3201A84972200BBAD60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD8DE3231A84972200BBAD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FD8DE3251A84972200BBAD60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FD8DE3281A84972200BBAD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FD8DE32E1A84972200BBAD60 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD8DE3331A84972200BBAD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD8DE3341A84972200BBAD60 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
-		FD8DE3401A84A91900BBAD60 /* Tip calcuiatormodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tip calcuiatormodel.swift"; sourceTree = "<group>"; };
+		FD7923EF1A84A7F200F56386 /* tipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipCalculatorModel.swift; sourceTree = "<group>"; };
+		FD918BEB1A8495D400C19151 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD918BEF1A8495D400C19151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD918BF01A8495D400C19151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD918BF21A8495D400C19151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD918BF51A8495D400C19151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD918BF71A8495D400C19151 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD918BFA1A8495D400C19151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD918C001A8495D400C19151 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD918C051A8495D400C19151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD918C061A8495D400C19151 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FD8DE3161A84972100BBAD60 /* Frameworks */ = {
+		FD918BE81A8495D400C19151 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD8DE32B1A84972200BBAD60 /* Frameworks */ = {
+		FD918BFD1A8495D400C19151 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,59 +58,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD8DE3101A84972100BBAD60 = {
+		FD918BE21A8495D400C19151 = {
 			isa = PBXGroup;
 			children = (
-				FD8DE31B1A84972200BBAD60 /* TipCalculator */,
-				FD8DE3311A84972200BBAD60 /* TipCalculatorTests */,
-				FD8DE31A1A84972200BBAD60 /* Products */,
+				FD918BED1A8495D400C19151 /* TipCalculator */,
+				FD918C031A8495D400C19151 /* TipCalculatorTests */,
+				FD918BEC1A8495D400C19151 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FD8DE31A1A84972200BBAD60 /* Products */ = {
+		FD918BEC1A8495D400C19151 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD8DE3191A84972200BBAD60 /* TipCalculator.app */,
-				FD8DE32E1A84972200BBAD60 /* TipCalculatorTests.xctest */,
+				FD918BEB1A8495D400C19151 /* TipCalculator.app */,
+				FD918C001A8495D400C19151 /* TipCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD8DE31B1A84972200BBAD60 /* TipCalculator */ = {
+		FD918BED1A8495D400C19151 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				FD8DE31E1A84972200BBAD60 /* AppDelegate.swift */,
-				FD8DE3201A84972200BBAD60 /* ViewController.swift */,
-				FD8DE3221A84972200BBAD60 /* Main.storyboard */,
-				FD8DE3401A84A91900BBAD60 /* Tip calcuiatormodel.swift */,
-				FD8DE3251A84972200BBAD60 /* Images.xcassets */,
-				FD8DE3271A84972200BBAD60 /* LaunchScreen.xib */,
-				FD8DE31C1A84972200BBAD60 /* Supporting Files */,
+				FD918BF01A8495D400C19151 /* AppDelegate.swift */,
+				FD918BF21A8495D400C19151 /* ViewController.swift */,
+				FD918BF41A8495D400C19151 /* Main.storyboard */,
+				FD7923EF1A84A7F200F56386 /* tipCalculatorModel.swift */,
+				FD918BF71A8495D400C19151 /* Images.xcassets */,
+				FD918BF91A8495D400C19151 /* LaunchScreen.xib */,
+				FD918BEE1A8495D400C19151 /* Supporting Files */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
 		};
-		FD8DE31C1A84972200BBAD60 /* Supporting Files */ = {
+		FD918BEE1A8495D400C19151 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD8DE31D1A84972200BBAD60 /* Info.plist */,
+				FD918BEF1A8495D400C19151 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FD8DE3311A84972200BBAD60 /* TipCalculatorTests */ = {
+		FD918C031A8495D400C19151 /* TipCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				FD8DE3341A84972200BBAD60 /* TipCalculatorTests.swift */,
-				FD8DE3321A84972200BBAD60 /* Supporting Files */,
+				FD918C061A8495D400C19151 /* TipCalculatorTests.swift */,
+				FD918C041A8495D400C19151 /* Supporting Files */,
 			);
 			path = TipCalculatorTests;
 			sourceTree = "<group>";
 		};
-		FD8DE3321A84972200BBAD60 /* Supporting Files */ = {
+		FD918C041A8495D400C19151 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD8DE3331A84972200BBAD60 /* Info.plist */,
+				FD918C051A8495D400C19151 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,13 +118,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD8DE3181A84972100BBAD60 /* TipCalculator */ = {
+		FD918BEA1A8495D400C19151 /* TipCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD8DE3381A84972200BBAD60 /* Build configuration list for PBXNativeTarget "TipCalculator" */;
+			buildConfigurationList = FD918C0A1A8495D400C19151 /* Build configuration list for PBXNativeTarget "TipCalculator" */;
 			buildPhases = (
-				FD8DE3151A84972100BBAD60 /* Sources */,
-				FD8DE3161A84972100BBAD60 /* Frameworks */,
-				FD8DE3171A84972100BBAD60 /* Resources */,
+				FD918BE71A8495D400C19151 /* Sources */,
+				FD918BE81A8495D400C19151 /* Frameworks */,
+				FD918BE91A8495D400C19151 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +132,46 @@
 			);
 			name = TipCalculator;
 			productName = TipCalculator;
-			productReference = FD8DE3191A84972200BBAD60 /* TipCalculator.app */;
+			productReference = FD918BEB1A8495D400C19151 /* TipCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FD8DE32D1A84972200BBAD60 /* TipCalculatorTests */ = {
+		FD918BFF1A8495D400C19151 /* TipCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD8DE33B1A84972200BBAD60 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */;
+			buildConfigurationList = FD918C0D1A8495D400C19151 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */;
 			buildPhases = (
-				FD8DE32A1A84972200BBAD60 /* Sources */,
-				FD8DE32B1A84972200BBAD60 /* Frameworks */,
-				FD8DE32C1A84972200BBAD60 /* Resources */,
+				FD918BFC1A8495D400C19151 /* Sources */,
+				FD918BFD1A8495D400C19151 /* Frameworks */,
+				FD918BFE1A8495D400C19151 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD8DE3301A84972200BBAD60 /* PBXTargetDependency */,
+				FD918C021A8495D400C19151 /* PBXTargetDependency */,
 			);
 			name = TipCalculatorTests;
 			productName = TipCalculatorTests;
-			productReference = FD8DE32E1A84972200BBAD60 /* TipCalculatorTests.xctest */;
+			productReference = FD918C001A8495D400C19151 /* TipCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FD8DE3111A84972100BBAD60 /* Project object */ = {
+		FD918BE31A8495D400C19151 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = iStudents;
 				TargetAttributes = {
-					FD8DE3181A84972100BBAD60 = {
+					FD918BEA1A8495D400C19151 = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					FD8DE32D1A84972200BBAD60 = {
+					FD918BFF1A8495D400C19151 = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = FD8DE3181A84972100BBAD60;
+						TestTargetID = FD918BEA1A8495D400C19151;
 					};
 				};
 			};
-			buildConfigurationList = FD8DE3141A84972100BBAD60 /* Build configuration list for PBXProject "TipCalculator" */;
+			buildConfigurationList = FD918BE61A8495D400C19151 /* Build configuration list for PBXProject "TipCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +179,29 @@
 				en,
 				Base,
 			);
-			mainGroup = FD8DE3101A84972100BBAD60;
-			productRefGroup = FD8DE31A1A84972200BBAD60 /* Products */;
+			mainGroup = FD918BE21A8495D400C19151;
+			productRefGroup = FD918BEC1A8495D400C19151 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD8DE3181A84972100BBAD60 /* TipCalculator */,
-				FD8DE32D1A84972200BBAD60 /* TipCalculatorTests */,
+				FD918BEA1A8495D400C19151 /* TipCalculator */,
+				FD918BFF1A8495D400C19151 /* TipCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FD8DE3171A84972100BBAD60 /* Resources */ = {
+		FD918BE91A8495D400C19151 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8DE3241A84972200BBAD60 /* Main.storyboard in Resources */,
-				FD8DE3291A84972200BBAD60 /* LaunchScreen.xib in Resources */,
-				FD8DE3261A84972200BBAD60 /* Images.xcassets in Resources */,
+				FD918BF61A8495D400C19151 /* Main.storyboard in Resources */,
+				FD918BFB1A8495D400C19151 /* LaunchScreen.xib in Resources */,
+				FD918BF81A8495D400C19151 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD8DE32C1A84972200BBAD60 /* Resources */ = {
+		FD918BFE1A8495D400C19151 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +211,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FD8DE3151A84972100BBAD60 /* Sources */ = {
+		FD918BE71A8495D400C19151 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8DE3211A84972200BBAD60 /* ViewController.swift in Sources */,
-				FD8DE31F1A84972200BBAD60 /* AppDelegate.swift in Sources */,
-				FD8DE3411A84A91900BBAD60 /* Tip calcuiatormodel.swift in Sources */,
+				FD918BF31A8495D400C19151 /* ViewController.swift in Sources */,
+				FD918BF11A8495D400C19151 /* AppDelegate.swift in Sources */,
+				FD7923F01A84A7F200F56386 /* tipCalculatorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD8DE32A1A84972200BBAD60 /* Sources */ = {
+		FD918BFC1A8495D400C19151 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8DE3351A84972200BBAD60 /* TipCalculatorTests.swift in Sources */,
+				FD918C071A8495D400C19151 /* TipCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FD8DE3301A84972200BBAD60 /* PBXTargetDependency */ = {
+		FD918C021A8495D400C19151 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD8DE3181A84972100BBAD60 /* TipCalculator */;
-			targetProxy = FD8DE32F1A84972200BBAD60 /* PBXContainerItemProxy */;
+			target = FD918BEA1A8495D400C19151 /* TipCalculator */;
+			targetProxy = FD918C011A8495D400C19151 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD8DE3221A84972200BBAD60 /* Main.storyboard */ = {
+		FD918BF41A8495D400C19151 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD8DE3231A84972200BBAD60 /* Base */,
+				FD918BF51A8495D400C19151 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FD8DE3271A84972200BBAD60 /* LaunchScreen.xib */ = {
+		FD918BF91A8495D400C19151 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD8DE3281A84972200BBAD60 /* Base */,
+				FD918BFA1A8495D400C19151 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FD8DE3361A84972200BBAD60 /* Debug */ = {
+		FD918C081A8495D400C19151 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +301,7 @@
 			};
 			name = Debug;
 		};
-		FD8DE3371A84972200BBAD60 /* Release */ = {
+		FD918C091A8495D400C19151 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,7 +336,7 @@
 			};
 			name = Release;
 		};
-		FD8DE3391A84972200BBAD60 /* Debug */ = {
+		FD918C0B1A8495D400C19151 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -346,7 +346,7 @@
 			};
 			name = Debug;
 		};
-		FD8DE33A1A84972200BBAD60 /* Release */ = {
+		FD918C0C1A8495D400C19151 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -356,7 +356,7 @@
 			};
 			name = Release;
 		};
-		FD8DE33C1A84972200BBAD60 /* Debug */ = {
+		FD918C0E1A8495D400C19151 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -375,7 +375,7 @@
 			};
 			name = Debug;
 		};
-		FD8DE33D1A84972200BBAD60 /* Release */ = {
+		FD918C0F1A8495D400C19151 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -393,34 +393,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD8DE3141A84972100BBAD60 /* Build configuration list for PBXProject "TipCalculator" */ = {
+		FD918BE61A8495D400C19151 /* Build configuration list for PBXProject "TipCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD8DE3361A84972200BBAD60 /* Debug */,
-				FD8DE3371A84972200BBAD60 /* Release */,
+				FD918C081A8495D400C19151 /* Debug */,
+				FD918C091A8495D400C19151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD8DE3381A84972200BBAD60 /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
+		FD918C0A1A8495D400C19151 /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD8DE3391A84972200BBAD60 /* Debug */,
-				FD8DE33A1A84972200BBAD60 /* Release */,
+				FD918C0B1A8495D400C19151 /* Debug */,
+				FD918C0C1A8495D400C19151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD8DE33B1A84972200BBAD60 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
+		FD918C0D1A8495D400C19151 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD8DE33C1A84972200BBAD60 /* Debug */,
-				FD8DE33D1A84972200BBAD60 /* Release */,
+				FD918C0E1A8495D400C19151 /* Debug */,
+				FD918C0F1A8495D400C19151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FD8DE3111A84972100BBAD60 /* Project object */;
+	rootObject = FD918BE31A8495D400C19151 /* Project object */;
 }

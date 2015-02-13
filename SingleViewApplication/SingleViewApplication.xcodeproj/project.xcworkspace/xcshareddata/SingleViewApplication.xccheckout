@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>946647FF-5F4D-48B3-A457-AC0B7827E6C4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SingleViewApplication</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DF129A4A8E816B9C4B76DE0CB7A4BE52EDDC82CD</key>
+		<string>https://github.com/phichai/54011212145_Phichai.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SingleViewApplication/SingleViewApplication.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DF129A4A8E816B9C4B76DE0CB7A4BE52EDDC82CD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/phichai/54011212145_Phichai.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DF129A4A8E816B9C4B76DE0CB7A4BE52EDDC82CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF129A4A8E816B9C4B76DE0CB7A4BE52EDDC82CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>54011212145_Phichai</string>
+		</dict>
+	</array>
+</dict>
+</plist>
