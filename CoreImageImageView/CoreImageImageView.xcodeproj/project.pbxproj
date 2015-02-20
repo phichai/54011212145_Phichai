@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDAC42571A97125C00F4DE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC42561A97125C00F4DE02 /* AppDelegate.swift */; };
+		FDAC42591A97125C00F4DE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC42581A97125C00F4DE02 /* ViewController.swift */; };
+		FDAC425C1A97125C00F4DE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAC425A1A97125C00F4DE02 /* Main.storyboard */; };
+		FDAC425E1A97125C00F4DE02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAC425D1A97125C00F4DE02 /* Images.xcassets */; };
+		FDAC42611A97125C00F4DE02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDAC425F1A97125C00F4DE02 /* LaunchScreen.xib */; };
+		FDAC426D1A97125C00F4DE02 /* CoreImageImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC426C1A97125C00F4DE02 /* CoreImageImageViewTests.swift */; };
+		FDAC42791A971E2700F4DE02 /* zz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDAC42781A971E2700F4DE02 /* zz.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDAC42671A97125C00F4DE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDAC42491A97125C00F4DE02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDAC42501A97125C00F4DE02;
+			remoteInfo = CoreImageImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDAC42511A97125C00F4DE02 /* CoreImageImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreImageImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAC42551A97125C00F4DE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAC42561A97125C00F4DE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDAC42581A97125C00F4DE02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDAC425B1A97125C00F4DE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDAC425D1A97125C00F4DE02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDAC42601A97125C00F4DE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDAC42661A97125C00F4DE02 /* CoreImageImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreImageImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAC426B1A97125C00F4DE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAC426C1A97125C00F4DE02 /* CoreImageImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageImageViewTests.swift; sourceTree = "<group>"; };
+		FDAC42781A971E2700F4DE02 /* zz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zz.jpg; path = ../../../zz.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDAC424E1A97125C00F4DE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAC42631A97125C00F4DE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDAC42481A97125C00F4DE02 = {
+			isa = PBXGroup;
+			children = (
+				FDAC42531A97125C00F4DE02 /* CoreImageImageView */,
+				FDAC42691A97125C00F4DE02 /* CoreImageImageViewTests */,
+				FDAC42521A97125C00F4DE02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAC42521A97125C00F4DE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC42511A97125C00F4DE02 /* CoreImageImageView.app */,
+				FDAC42661A97125C00F4DE02 /* CoreImageImageViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDAC42531A97125C00F4DE02 /* CoreImageImageView */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC42561A97125C00F4DE02 /* AppDelegate.swift */,
+				FDAC42581A97125C00F4DE02 /* ViewController.swift */,
+				FDAC425A1A97125C00F4DE02 /* Main.storyboard */,
+				FDAC425D1A97125C00F4DE02 /* Images.xcassets */,
+				FDAC425F1A97125C00F4DE02 /* LaunchScreen.xib */,
+				FDAC42541A97125C00F4DE02 /* Supporting Files */,
+			);
+			path = CoreImageImageView;
+			sourceTree = "<group>";
+		};
+		FDAC42541A97125C00F4DE02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC42781A971E2700F4DE02 /* zz.jpg */,
+				FDAC42551A97125C00F4DE02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDAC42691A97125C00F4DE02 /* CoreImageImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC426C1A97125C00F4DE02 /* CoreImageImageViewTests.swift */,
+				FDAC426A1A97125C00F4DE02 /* Supporting Files */,
+			);
+			path = CoreImageImageViewTests;
+			sourceTree = "<group>";
+		};
+		FDAC426A1A97125C00F4DE02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC426B1A97125C00F4DE02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDAC42501A97125C00F4DE02 /* CoreImageImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAC42701A97125C00F4DE02 /* Build configuration list for PBXNativeTarget "CoreImageImageView" */;
+			buildPhases = (
+				FDAC424D1A97125C00F4DE02 /* Sources */,
+				FDAC424E1A97125C00F4DE02 /* Frameworks */,
+				FDAC424F1A97125C00F4DE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreImageImageView;
+			productName = CoreImageImageView;
+			productReference = FDAC42511A97125C00F4DE02 /* CoreImageImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDAC42651A97125C00F4DE02 /* CoreImageImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAC42731A97125C00F4DE02 /* Build configuration list for PBXNativeTarget "CoreImageImageViewTests" */;
+			buildPhases = (
+				FDAC42621A97125C00F4DE02 /* Sources */,
+				FDAC42631A97125C00F4DE02 /* Frameworks */,
+				FDAC42641A97125C00F4DE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAC42681A97125C00F4DE02 /* PBXTargetDependency */,
+			);
+			name = CoreImageImageViewTests;
+			productName = CoreImageImageViewTests;
+			productReference = FDAC42661A97125C00F4DE02 /* CoreImageImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDAC42491A97125C00F4DE02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FDAC42501A97125C00F4DE02 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FDAC42651A97125C00F4DE02 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FDAC42501A97125C00F4DE02;
+					};
+				};
+			};
+			buildConfigurationList = FDAC424C1A97125C00F4DE02 /* Build configuration list for PBXProject "CoreImageImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDAC42481A97125C00F4DE02;
+			productRefGroup = FDAC42521A97125C00F4DE02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDAC42501A97125C00F4DE02 /* CoreImageImageView */,
+				FDAC42651A97125C00F4DE02 /* CoreImageImageViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDAC424F1A97125C00F4DE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAC425C1A97125C00F4DE02 /* Main.storyboard in Resources */,
+				FDAC42791A971E2700F4DE02 /* zz.jpg in Resources */,
+				FDAC42611A97125C00F4DE02 /* LaunchScreen.xib in Resources */,
+				FDAC425E1A97125C00F4DE02 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAC42641A97125C00F4DE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDAC424D1A97125C00F4DE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAC42591A97125C00F4DE02 /* ViewController.swift in Sources */,
+				FDAC42571A97125C00F4DE02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAC42621A97125C00F4DE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAC426D1A97125C00F4DE02 /* CoreImageImageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDAC42681A97125C00F4DE02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDAC42501A97125C00F4DE02 /* CoreImageImageView */;
+			targetProxy = FDAC42671A97125C00F4DE02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDAC425A1A97125C00F4DE02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAC425B1A97125C00F4DE02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDAC425F1A97125C00F4DE02 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAC42601A97125C00F4DE02 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDAC426E1A97125C00F4DE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDAC426F1A97125C00F4DE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDAC42711A97125C00F4DE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreImageImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDAC42721A97125C00F4DE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreImageImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDAC42741A97125C00F4DE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreImageImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreImageImageView.app/CoreImageImageView";
+			};
+			name = Debug;
+		};
+		FDAC42751A97125C00F4DE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreImageImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreImageImageView.app/CoreImageImageView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDAC424C1A97125C00F4DE02 /* Build configuration list for PBXProject "CoreImageImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAC426E1A97125C00F4DE02 /* Debug */,
+				FDAC426F1A97125C00F4DE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAC42701A97125C00F4DE02 /* Build configuration list for PBXNativeTarget "CoreImageImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAC42711A97125C00F4DE02 /* Debug */,
+				FDAC42721A97125C00F4DE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDAC42731A97125C00F4DE02 /* Build configuration list for PBXNativeTarget "CoreImageImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAC42741A97125C00F4DE02 /* Debug */,
+				FDAC42751A97125C00F4DE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDAC42491A97125C00F4DE02 /* Project object */;
+}
