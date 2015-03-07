@@ -4,6 +4,85 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
+        <!--View Controller Show-->
+        <scene sceneID="F5G-FK-zeg">
+            <objects>
+                <viewController id="nyF-E6-Wk6" customClass="ViewControllerShow" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AHj-FM-Fjw"/>
+                        <viewControllerLayoutGuide type="bottom" id="LfH-Wk-3Cp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hlv-KC-yGb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Prh-iE-ugB">
+                                <rect key="frame" x="0.0" y="139" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Show" id="JQr-UH-xfn"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="im_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GgH-8q-bTp">
+                                <rect key="frame" x="0.0" y="64" width="320" height="73"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UCz-Y1-EIG">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Welcome Faculty of Informatics" id="t3c-V5-nbT"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="s_0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="m4n-dD-Ib8">
+                                <rect key="frame" x="18" y="183" width="286" height="143"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="แผนที่คณะวิทยาการสารสนเทศ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyq-8u-oI4">
+                                <rect key="frame" x="54" y="334" width="213" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="z_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="d55-Is-tVh">
+                                <rect key="frame" x="176" y="368" width="91" height="61"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="z_2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="B47-Qi-Fhy">
+                                <rect key="frame" x="115" y="437" width="91" height="61"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ภาพกิจกรรม" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKq-NW-IIR">
+                                <rect key="frame" x="54" y="498" width="213" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="z_0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KXa-wQ-p5B">
+                                <rect key="frame" x="54" y="368" width="91" height="61"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xss-UD-BM1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697" y="874"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="53e-is-Wo1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RcR-ND-eGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="WcP-Pk-jEY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g2f-JK-Kqg"/>
+                        <viewControllerLayoutGuide type="bottom" id="9YI-ff-j7j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D9K-mB-lxb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1129" y="906"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
@@ -17,28 +96,58 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="omK-al-8ux">
-                                <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="523" width="320" height="44"/>
                                 <items>
-                                    <navigationItem title="Information" id="wRr-RW-Qx7"/>
+                                    <navigationItem title="Welcome Faculty of Informatics" id="wRr-RW-Qx7"/>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QoU-j7-vYE">
-                                <rect key="frame" x="0.0" y="108" width="320" height="74"/>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zm6-ed-srZ">
+                                <rect key="frame" x="0.0" y="137" width="320" height="44"/>
+                                <items>
+                                    <navigationItem id="IL2-LC-mWO">
+                                        <barButtonItem key="leftBarButtonItem" title="แนะนำ" id="Ggc-n5-Kf5">
+                                            <connections>
+                                                <segue destination="nyF-E6-Wk6" kind="show" id="FqQ-qa-00u"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="หลักสูตร" id="iNe-Bx-MNs">
+                                            <connections>
+                                                <segue destination="UoZ-P2-ER3" kind="show" id="g1s-YR-YiQ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="im_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MsC-gw-Cut">
+                                <rect key="frame" x="0.0" y="64" width="320" height="73"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VFT-uv-yU1">
-                                <rect key="frame" x="88" y="184" width="232" height="359"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="z_0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S90-lJ-8ln">
+                                <rect key="frame" x="45" y="194" width="231" height="124"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="ความรู้คู่คุณธรรมนำสังคม" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TdP-vg-F0q">
+                                <rect key="frame" x="76" y="350" width="169" height="41"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="คณะวิทยาการสารสนเทศเป็นองค์กรชั้นนำด้านวิทยาการสารสนเทศที่ได้รับการยอมรับ ในระดับชาติและนานาชาติ" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eYw-Dh-ENa">
+                                <rect key="frame" x="16" y="424" width="288" height="94"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Lol-el-voj">
-                                <rect key="frame" x="0.0" y="184" width="89" height="290"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dt3-sy-FTe">
-                                <rect key="frame" x="0.0" y="64" width="45" height="44"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ปรัชญา" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAY-Uq-9rc">
+                                <rect key="frame" x="134" y="332" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.071287347641095788" green="0.083571926711750066" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="วิสัยทัศน์" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hW-Xq-mr0">
+                                <rect key="frame" x="134" y="399" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -47,7 +156,152 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="607" y="415"/>
+            <point key="canvasLocation" x="267" y="159"/>
+        </scene>
+        <!--View Controller Course-->
+        <scene sceneID="lGl-QV-6fN">
+            <objects>
+                <viewController id="UoZ-P2-ER3" customClass="ViewControllerCourse" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uUC-DK-hha"/>
+                        <viewControllerLayoutGuide type="bottom" id="uSR-bc-5Yk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wux-is-Lqx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EEB-SP-Ycp">
+                                <rect key="frame" x="0.0" y="137" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="หลักสูตรที่เปิดสอน" id="zRi-Iq-NrB"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="im_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AI4-HS-4ew">
+                                <rect key="frame" x="0.0" y="64" width="320" height="73"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OPP-m6-mO1">
+                                <rect key="frame" x="0.0" y="183" width="320" height="44"/>
+                                <items>
+                                    <navigationItem id="Kuu-th-1zI">
+                                        <barButtonItem key="leftBarButtonItem" title="หลักสูตร ปริญญาตรี" id="P4C-gQ-rG2">
+                                            <connections>
+                                                <segue destination="3vt-Fx-uwd" kind="show" id="6NO-7J-9fu"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="peQ-TY-dHE">
+                                <rect key="frame" x="0.0" y="227" width="320" height="44"/>
+                                <items>
+                                    <navigationItem id="pNu-BW-sE1">
+                                        <barButtonItem key="leftBarButtonItem" title="หลักสูตร ปริญญาโท" id="Dbe-OX-hGQ">
+                                            <connections>
+                                                <segue destination="L6i-z9-PQW" kind="show" id="S5P-dx-68f"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FEj-M1-xit">
+                                <rect key="frame" x="47" y="297" width="227" height="200"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wab-mR-xOz">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Welcome Faculty of Informatics" id="vgK-i7-tyA" colorLabel="IBBuiltInLabel-Orange"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9mZ-Ru-rPT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697" y="47"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sxq-89-4MH">
+            <objects>
+                <viewController id="L6i-z9-PQW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9az-I0-OVT"/>
+                        <viewControllerLayoutGuide type="bottom" id="dff-dc-aPR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v3l-DC-HYp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="im_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xn0-87-ii6">
+                                <rect key="frame" x="0.0" y="64" width="320" height="73"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NcB-x6-85r">
+                                <rect key="frame" x="0.0" y="137" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="หลักสูตร ปริญญาโท" id="bN1-sO-yQp"/>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Icx-Om-DPE">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Welcome Faculty of Informatics" id="RiP-oi-MOA"/>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="1.หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์" translatesAutoresizingMaskIntoConstraints="NO" id="XvY-jb-xMf">
+                                <rect key="frame" x="0.0" y="181" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="2.หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาเทคโนโลยีสารสนเทศ" translatesAutoresizingMaskIntoConstraints="NO" id="fw5-7C-AdN">
+                                <rect key="frame" x="0.0" y="225" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="3.หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาสื่อนฤมิต" translatesAutoresizingMaskIntoConstraints="NO" id="ycj-jy-DOL">
+                                <rect key="frame" x="0.0" y="275" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="4.หลักสูตรศิลปศาสตรมหาบัณฑิต สาขาวิชาสารสนเทศศาสตร์" translatesAutoresizingMaskIntoConstraints="NO" id="wId-nt-7EC">
+                                <rect key="frame" x="0.0" y="309" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c_2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QIo-Pb-9jU">
+                                <rect key="frame" x="40" y="367" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F0G-vB-X9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1129" y="291"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HAA-4P-3sv">
+            <objects>
+                <viewController id="Wlc-3D-kzj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eCq-Vi-oHW"/>
+                        <viewControllerLayoutGuide type="bottom" id="HLV-pt-gwR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qOo-LT-94Z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ssk-By-jac" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1129" y="-367"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Gmk-R5-SIX">
@@ -66,7 +320,101 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tia-2u-WcJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="209" y="455"/>
+            <point key="canvasLocation" x="-175" y="852"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8Jr-uf-fgt">
+            <objects>
+                <viewController id="3vt-Fx-uwd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cYU-GE-nYU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hzb-n8-gY1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GIB-ds-lOe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="im_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tF6-ao-0T7">
+                                <rect key="frame" x="0.0" y="64" width="320" height="73"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1J5-o0-ysq">
+                                <rect key="frame" x="0.0" y="137" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="หลักสูตร ปริญญาตรี" id="J8G-ka-RMW"/>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5aD-si-3jq">
+                                <rect key="frame" x="0.0" y="181" width="320" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">1.หลักสูตรวิทยาศาสตรบัณฑิต (วิทยาการคอมพิวเตอร์)
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fR-yQ-fIM">
+                                <rect key="frame" x="0.0" y="208" width="320" height="46"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">2.หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีสารสนเทศ
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EDb-yG-gql">
+                                <rect key="frame" x="0.0" y="254" width="320" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">3.หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาคอมพิวเตอร์แอนนิเมชันและเกม
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zqb-Td-388">
+                                <rect key="frame" x="0.0" y="299" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">4.หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาภูมิสารสนเทศ
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="5.หลักสูตรนิเทศศาสตรบัณฑิต (นิเทศศาสตร์)" translatesAutoresizingMaskIntoConstraints="NO" id="nrb-b4-rdd">
+                                <rect key="frame" x="1" y="326" width="320" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="6.หลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาสารสนเทศศาสตร์" translatesAutoresizingMaskIntoConstraints="NO" id="Hpe-kU-Q6K">
+                                <rect key="frame" x="1" y="357" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C6W-HC-OlZ">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Welcome Faculty of Informatics" id="W7C-ju-xxP"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c_3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iu9-PU-aV9">
+                                <rect key="frame" x="36" y="401" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r6F-FY-nqk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1129" y="-367"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="c_1.jpg" width="1000" height="582"/>
+        <image name="c_2.jpg" width="960" height="636"/>
+        <image name="c_3.jpg" width="1024" height="678"/>
+        <image name="im_1.jpg" width="1200" height="212"/>
+        <image name="s_0.jpg" width="1200" height="789"/>
+        <image name="z_0.jpg" width="960" height="636"/>
+        <image name="z_1.jpg" width="960" height="636"/>
+        <image name="z_2.jpg" width="960" height="641"/>
+    </resources>
 </document>
