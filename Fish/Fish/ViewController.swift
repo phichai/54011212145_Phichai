@@ -18,7 +18,7 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate {
         square.frame = CGRect(x: 0, y: 175, width: 70, height: 70)
         self.view.addSubview(square)
         
-        UIView.animateWithDuration(1.0, animations: {
+        UIView.animateWithDuration(20.0, animations: {
             
             }, completion: { animationFinished in
                 square.removeFromSuperview()
@@ -30,7 +30,6 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate {
     }
     
     @IBOutlet weak var numberOfFishSlider: UISlider!
-    
     
     @IBAction func animateButtonPressed(sender: AnyObject) {
         let numberOfFish = Int(self.numberOfFishSlider.value)
