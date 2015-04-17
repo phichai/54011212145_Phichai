@@ -405,6 +405,7 @@
 				FD6F5E8E1ACE6F9400B3B945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD6F5E8F1ACE6F9400B3B945 /* Build configuration list for PBXNativeTarget "ImagePickerControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				FD6F5E911ACE6F9400B3B945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

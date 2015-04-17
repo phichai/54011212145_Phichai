@@ -104,7 +104,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidLoad() {
         super.viewDidLoad()
         //1
-        let fileURL = NSBundle.mainBundle().URLForResource("zz", withExtension: "jpg")
+        let fileURL = NSBundle.mainBundle().URLForResource("im_1", withExtension: "jpg")
         
         //2
         beginImage = CIImage(contentsOfURL: fileURL)

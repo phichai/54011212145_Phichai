@@ -13,7 +13,7 @@
 		FDAC425E1A97125C00F4DE02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAC425D1A97125C00F4DE02 /* Images.xcassets */; };
 		FDAC42611A97125C00F4DE02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDAC425F1A97125C00F4DE02 /* LaunchScreen.xib */; };
 		FDAC426D1A97125C00F4DE02 /* CoreImageImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC426C1A97125C00F4DE02 /* CoreImageImageViewTests.swift */; };
-		FDAC42791A971E2700F4DE02 /* zz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDAC42781A971E2700F4DE02 /* zz.jpg */; };
+		FDBFC6641AE0F13900579C51 /* im_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDBFC6631AE0F13900579C51 /* im_1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		FDAC42661A97125C00F4DE02 /* CoreImageImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreImageImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAC426B1A97125C00F4DE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDAC426C1A97125C00F4DE02 /* CoreImageImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageImageViewTests.swift; sourceTree = "<group>"; };
-		FDAC42781A971E2700F4DE02 /* zz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zz.jpg; path = ../../../zz.jpg; sourceTree = "<group>"; };
+		FDBFC6631AE0F13900579C51 /* im_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_1.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		FDAC42541A97125C00F4DE02 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDAC42781A971E2700F4DE02 /* zz.jpg */,
+				FDBFC6631AE0F13900579C51 /* im_1.jpg */,
 				FDAC42551A97125C00F4DE02 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDAC425C1A97125C00F4DE02 /* Main.storyboard in Resources */,
-				FDAC42791A971E2700F4DE02 /* zz.jpg in Resources */,
+				FDBFC6641AE0F13900579C51 /* im_1.jpg in Resources */,
 				FDAC42611A97125C00F4DE02 /* LaunchScreen.xib in Resources */,
 				FDAC425E1A97125C00F4DE02 /* Images.xcassets in Resources */,
 			);
@@ -409,6 +409,7 @@
 				FDAC42721A97125C00F4DE02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDAC42731A97125C00F4DE02 /* Build configuration list for PBXNativeTarget "CoreImageImageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				FDAC42751A97125C00F4DE02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

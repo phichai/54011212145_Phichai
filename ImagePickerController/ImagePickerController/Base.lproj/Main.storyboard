@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JeE-V2-A2x">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="im_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JeE-V2-A2x">
                                 <rect key="frame" x="0.0" y="20" width="375" height="525"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUG-uo-xvs">
@@ -53,4 +53,7 @@
             <point key="canvasLocation" x="308.5" y="383.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="im_1.jpg" width="1920" height="1200"/>
+    </resources>
 </document>
